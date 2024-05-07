@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BonActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvtitle2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#51829B"
+        android:fontFamily="@font/archivo_black"
+        android:gravity="center"
+        android:text="@string/invoice_rent_car_kocak"
+        android:textColor="@color/white"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/tvdesc"
+        android:layout_width="336dp"
+        android:layout_height="385dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="35dp"
+        android:fontFamily="@font/acme"
+        android:gravity="clip_horizontal"
+        android:scaleType="fitCenter"
+        android:textSize="17sp" />
+
+
+</LinearLayout>

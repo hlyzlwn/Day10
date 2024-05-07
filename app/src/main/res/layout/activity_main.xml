@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvtitle1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#51829B"
+        android:fontFamily="@font/archivo_black"
+        android:gravity="center"
+        android:text="@string/car_rent_kocak"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/tvcartype"
+        android:layout_width="130dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="bottom|center|left"
+        android:text="@string/car_type"
+        android:textSize="25sp" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp">
+
+        <RadioGroup
+            android:id="@+id/radiogroup1"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/rbpajero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="@string/pajero" />
+
+            <RadioButton
+                android:id="@+id/rbalphard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="@string/alphard" />
+
+            <RadioButton
+                android:id="@+id/rbinova"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="@string/inova" />
+
+            <RadioButton
+                android:id="@+id/rbbrio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="@string/brio" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvcity"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="bottom|center|left"
+        android:text="@string/city"
+        android:textSize="25sp" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp">
+
+        <RadioGroup
+            android:id="@+id/radiogroup2"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/rbinsadecity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="@string/insade_city" />
+
+            <RadioButton
+                android:id="@+id/rboutsidecity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="@string/outside_city" />
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvdayofrent"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="bottom|center|left"
+        android:text="@string/day_of_rent"
+        android:textSize="25sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/dayofrent"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:hint="@string/total_day"
+        app:hintTextColor="@color/design_default_color_on_primary">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ettotalday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alfa_slab_one"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnrent"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="50dp"
+        android:background="#51829B"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="@string/rent"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+
+
+</LinearLayout>

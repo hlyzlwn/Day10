@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Day10</string>
+    <string name="car_rent_kocak">Car Rent Kocak</string>
+    <string name="pajero">Pajero</string>
+    <string name="alphard">Alphard</string>
+    <string name="inova">Inova</string>
+    <string name="brio">Brio</string>
+    <string name="car_type">Car Type : </string>
+    <string name="insade_city">Insade City</string>
+    <string name="city">City : </string>
+    <string name="outside_city">Outside City</string>
+    <string name="day_of_rent">Day Of Rent : </string>
+    <string name="total_day">Total Day : </string>
+    <string name="rent">Rent : </string>
+    <string name="invoice_rent_car_kocak">Invoice Rent Car Kocak</string>
+</resources>
